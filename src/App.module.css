@@ -3,13 +3,12 @@
 }
 
 .logo {
-  animation: logo-spin infinite 20s linear;
   height: 40vmin;
   pointer-events: none;
 }
 
 .header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,15 +18,10 @@
   color: white;
 }
 
-.link {
-  color: #b318f0;
+p {
+  color: black;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.link {
+  color: #263f73;
 }
