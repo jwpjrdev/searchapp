@@ -1,0 +1,9 @@
+tasks:
+  - init: yarn install
+  - command: yarn rw dev
+
+ports:
+  - port: 8910
+    onOpen: open-browser
+  - port: 8911
+    onOpen: ignore
